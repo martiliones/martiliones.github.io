@@ -74,8 +74,19 @@ export default {
             {
               name: 'icon-set-creator',
               description: 'CLI for generating React-Native app icons',
-              link: 'https://github.com/libtelegram/libtelegram',
+              link: 'https://github.com/martiliones/icon-set-creator',
               icon: IconSetCreatorIcon,
+            },
+          ],
+        },
+        {
+          name: 'Apps',
+          list: [
+            {
+              name: 'Open Study',
+              description: 'Open Source Education app for android and ios',
+              link: 'https://github.com/OpenQazaqstan/OpenStudy',
+              icon: OpenStudyIcon,
             },
           ],
         },
