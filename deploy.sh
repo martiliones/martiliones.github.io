@@ -13,6 +13,7 @@ cd dist
 echo 'martilion.es' > CNAME
 
 git init
+git checkout -b gh-pages
 git add -A
 git commit -m 'deploy'
 
@@ -20,6 +21,7 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:martilones/martilion.es.git gh-pages
+git remote add origin https://github.com/martiliones/martilion.es.git
+git push -f origin gh-pages
 
 cd -
