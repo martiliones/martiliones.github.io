@@ -26,6 +26,8 @@ import ProjectPreview from '@/components/ProjectPreview.vue';
 import LibTelegramIcon from '@/components/icons/LibTelegram.vue';
 import IconSetCreatorIcon from '@/components/icons/IconSetCreator.vue';
 import OpenStudyIcon from '@/components/icons/OpenStudy.vue';
+import I18nLibTgIcon from '@/components/icons/I18nLibTg.vue';
+import AntiFloodIcon from '@/components/icons/AntiFlood.vue';
 
 export default {
   components: {
@@ -39,7 +41,7 @@ export default {
           list: [
             {
               name: 'LibTelegram',
-              description: 'Modern JavaScript framework for building Telegram Bots ',
+              description: 'Modern JavaScript framework for building Telegram Bots',
               link: 'https://github.com/libtelegram/libtelegram',
               icon: LibTelegramIcon,
             },
@@ -58,13 +60,25 @@ export default {
           ],
         },
         {
-          name: 'Telegram',
+          name: 'LibTelegram Ecosystem',
           list: [
             {
               name: 'LibTelegram',
-              description: 'Modern JavaScript framework for building Telegram Bots ',
+              description: 'Modern JavaScript framework for building Telegram Bots',
               link: 'https://github.com/libtelegram/libtelegram',
               icon: LibTelegramIcon,
+            },
+            {
+              name: 'i18n',
+              description: 'Internationalization library for LibTelegram',
+              link: 'https://github.com/libtelegram/i18n',
+              icon: I18nLibTgIcon,
+            },
+            {
+              name: 'Anti Flood',
+              description: 'Plugin to resolve telegram limits',
+              link: 'https://github.com/libtelegram/anti-flood',
+              icon: AntiFloodIcon,
             },
           ],
         },
