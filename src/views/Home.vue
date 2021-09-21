@@ -53,9 +53,6 @@
 
 <style lang="scss">
 .prose{
-  --fg: #bbb;
-  --fg-deep: #ddd;
-  --fg-deeper: #FFF;
   color: var(--fg);
   max-width: 65ch;
   font-size: 1rem;

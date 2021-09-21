@@ -22,9 +22,13 @@ export default {
 
 <style lang="scss">
 :root {
-  --c-bg:#050505;
+  --c-bg:#fff;
   --c-scrollbar:#eee;
   --c-scrollbar-hover:#bbb;
+  --fg: #555;
+  --fg-deep: #222;
+  --fg-deeper: #000;
+  --logo: #2F80ED;
 }
 
 html {
@@ -38,5 +42,16 @@ html {
     Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji
     !important;
   line-height: 1.5;
+}
+
+html.dark {
+  --c-bg: #050505;
+  --c-scrollbar: #111;
+  --c-scrollbar-hover: #222;
+  --fg: #bbb;
+  --fg-deep: #ddd;
+  --fg-deeper: #FFF;
+  --logo: #eee;
+  --nav-link: rgb(229, 231, 235);
 }
 </style>
